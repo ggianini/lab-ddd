@@ -5,9 +5,7 @@ import br.com.lab.impacta.account.application.dto.response.AccountBalanceRespons
 import br.com.lab.impacta.account.application.dto.response.DebitAccountResponse;
 
 public interface AccountApplication {
-
     AccountBalanceResponse getBalance(Long accountId);
 
     DebitAccountResponse debit(Long accountId, DebitAccountRequest debitAccountRequest);
-
 }

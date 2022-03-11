@@ -1,5 +1,5 @@
 server:
-  port: 8081
+  port: 8381
 
 management:
   endpoints:
@@ -26,10 +26,12 @@ spring:
     console:
       enabled: true
 
+
+
 lab:
   account:
     exceptions:
-      account-not-found-message: "Conta não encontrada."
-      account-not-found-description: "Não foi possível encontrar a conta corrente informada."
-      insufficient-account-balance-message: "Saldo insuficiente."
-      insufficient-account-balance-description: "Não foi possível efetuar o débito, o saldo da conta informada é insuficiente."
+      account-dont-exists-message: "Conta não encontrada."
+      account-dont-exists-description: "Não foi possível encontrar a conta corrente informada."
+      account-without-balance-message: "Saldo insuficiente."
+      account-without-balance-description: "Não foi possível efetuar o débito, o saldo da conta informada é insuficiente."

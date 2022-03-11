@@ -4,7 +4,5 @@ import lombok.Data;
 
 @Data
 public class DebitAccountRequest {
-
-    Double valueOfDebit;
-
+    private Double valueOfDebit;
 }
